@@ -1,0 +1,11 @@
+{
+  "name": "dynamic_programming",
+  "version": "1.0.0",
+  "description": "This project contains examples of solving dynamic programming questions using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GeoffMahugu",
+  "license": "ISC"
+}
