@@ -19,6 +19,25 @@ function createAllWords(target, wordList) {
     return constructArray;
 }
 
+// Memoized solution
+function memonCreateAllWords(target, wordList, memo = {}) {
+    if (target === '') return [[]];
+    let constructArray = [];
+    for (let word of wordList) {
+        if (target.indexOf(word) === 0) {
+            const suffix = target.slice(word.length);
+            const retrievedWordsArr = createAllWords(suffix, wordList); // [['bc'],['de']]
+            const fullWordArr = retrievedWordsArr.map(arrWords => [word, ...arrWords]) // ['a',['bc'],['de']]
+            constructArray.push(...fullWordArr);
+        }
+    }
+    return constructArray;
+}
+
+
+
+
+
 
 test_1 = createAllWords('abcdefgh', ['ab', 'gh', 'abc', 'cd', 'h', 'def']);
 test_2 = createAllWords('bananna', ['an', 'n', 'ban', 'a', 'b']);
