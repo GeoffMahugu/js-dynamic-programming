@@ -13,12 +13,13 @@ This method gives you the most efficient strategy without optimization and these
 [0,1,1,2,3,5,8,13,21,34] - Fib values
 
 ```
+Table size is determined by the target value. Since you are working towards geting to the target value then table value should be in proportion to the intended target.
 
 **ii) Adjust table size based on input.**
 
 You will be given a value of length of input and will need to increment the table size to match index of table.
 
-``fib(6)`` -> on iteration table length should be ``n +1``
+``fib(6)`` -> on iteration table length should be ``n+1``
 
 **iii) initialize the table with default values.**
 
