@@ -9,7 +9,7 @@
 // m = target
 // n = numbers.length
 // Time: O(mn)
-//  Space: O(m^2*n)
+// Space: O(m)
 function bestSum(target, numbers) {
     const table = Array(target + 1).fill(null);
     table[0] = [];
