@@ -1,6 +1,50 @@
 ### DATA STRUCTURES
 
-This doc will contain summary of Data Structures. 
+This doc contains a summary of Data Structures.
+
+**Random Access Data Structure:** - [Arrays & ArrayLists] Obtaining a certain element can be accessed independent of other data elements by calling its index location.
+
+**Sequential Access Data Structure:** - Data can only be accessed in a particular order; Each element is dependent on each other.
+
+### Arrays
+A list of similar values.
+
+Attributes of an array include:
+ - Name: Has to have a name
+ - Type: You store similar data types (boolean,int,str)
+ - Size: arrays have a fix size.
+
+### Array Lists
+A growing Array. The size of array increases as the data increases.
+
+Has predefined methods:
+ - Add Method
+ - Remove Method
+ - Get Method
+ - Set Method
+ - Clear Method
+ - toArray Method
+
+
+### Stacks
+A sequential access data structure in which we add elemnts and remove elements according to the **LIFO** principle.
+
+Methods on stack include:
+ - **Push**: Adds elent to the start of the stack
+ - **Pop**: Removes elemnts and returns it from the top of the stack.
+ - **Peek**: Looks at the first element in the stack without modifying the stack.
+ - **Contains**: Searches through the stack and **returns a boolean**.
+
+
+### Queues
+A sequential access data structure which follows the **FIFO** methodology.
+Elements are added from the back and removed from the front (Sort of a waiting list)
+
+methods on Que include:
+ - **Enqueue**: Adds elements to the end of the Queue.( enqueue(object) )
+ - **Dequeue**: Takes no elemnets and removes and returns the fist element from the queue.
+ - **Peek**: returns the first element of the queue without modifying the queue.
+ - **Contains:** - traverses the Queue in search of an object and returns a boolean of presence of object.
 
 ### Linked List
 Its a **sequential access linear data structure** in which every element is a seperate object called a **Node** which has 2 parts:
@@ -85,3 +129,4 @@ Nonlinear data structure containing **Nodes** and **Edges.**
 - **Undirected Graphs:** - The direction you traverse the nodes isn't important.(lacks arrows)
 - **A Cyclic Graph:** - Graph that contains paths with at least one node leading back to itself.(All undirecteed graphs are cyclic)
 - **An Acyclic Graph:** - Graph that contains no path from any one Node which leads back in on itself.
+- **Weighted Graphs:** - Associating a numerical value with each edge (Cost).
