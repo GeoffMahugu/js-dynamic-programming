@@ -31,6 +31,7 @@ Abstruct data structure which stores data in the form of key/value pairs:
 
 
 ### Hash Table
+An abstruct data structure that stores keys of dictionaries in an array.
 
 **Hash function:** takes all keys for a given dictionary and strategically maps them to a certain index location in an array to be retrieved easily.
 
@@ -58,3 +59,25 @@ A variation of the standard tree with these three restrictions;
 
 Advantage is that the search improves with the increase in data, **O(log n)**
   
+### Tries
+Its a tree-like data structure whose nodes store letters of an alphabet.
+
+Are usefull in retrieval of words by traversing down a path os strings.
+
+### Heaps
+
+A special tree where all parent nodes compare to their children Node's in some specific way (Max Heap/ Min Heap) by being more or less extreme.
+
+**Max Heap:** - Parent node holds the greastes value in comparison to child nodes.
+ - This fact must be true recursively for all parent nodes within the heap.
+**Min Heap:** - Parent node holds least value in comparison to child nodes.
+ - This fact must be true recursively for all parent nodes within the heap.
+
+Use full in implementing **Heap Sort** algorythm where we continuously remove the root node to create a new array of sorted list.
+
+
+### Graphs
+
+Nonlinear data structure containing **Nodes** and **Edges.**
+
+{(node_value, edge_value)}--- {(5,6),{10,3},{4,2}
