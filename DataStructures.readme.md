@@ -81,3 +81,7 @@ Use full in implementing **Heap Sort** algorythm where we continuously remove th
 Nonlinear data structure containing **Nodes** and **Edges.**
 
 {(node_value, edge_value)}--- {(5,6),{10,3},{4,2}
+
+- **Undirected Graphs:** - The direction you traverse the nodes isn't important.(lacks arrows)
+- **A Cyclic Graph:** - Graph that contains paths with at least one node leading back to itself.(All undirecteed graphs are cyclic)
+- **An Acyclic Graph:** - Graph that contains no path from any one Node which leads back in on itself.
