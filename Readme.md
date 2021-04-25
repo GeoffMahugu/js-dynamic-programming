@@ -2,6 +2,8 @@
 
 This project contains examples of how to do Dynamic programming and can be used as a quick reference tool for interview prep questions.
 
+To read on Data Structures, please reference [DataStructures.readme.md](./DataStructures.readme.md)
+
 ### Tabulation Strategy
 
 This method gives you the most efficient strategy without optimization and these are the steps you follow to implement the strategy.
