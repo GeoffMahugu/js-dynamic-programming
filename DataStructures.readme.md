@@ -10,12 +10,13 @@ This doc contains a summary of Data Structures.
 A list of similar values.
 
 Attributes of an array include:
- - Name: Has to have a name
- - Type: You store similar data types (boolean,int,str)
- - Size: arrays have a fix size.
+ - **Name**: Has to have a name
+ - **Type**: You store similar data types (boolean,int,str)
+ - **Size**: arrays have a fix size.
 
 ### 2. Array Lists
 A growing Array. The size of array increases as the data increases.
+It sores pointers/references of the location in memory where the object is stored.
 
 Has predefined methods:
  - Add Method
@@ -66,7 +67,7 @@ Node
 [prev-pointer | data(int,str,boolean) | next-pointer]
 
 ### Dictionaries / Maps /Associative Arrays
-Abstruct data structure which stores data in the form of key/value pairs:
+Abstruct data structure which stores data in the form of **key/value pairs**:
 
 { key:value }
 
@@ -81,21 +82,21 @@ An abstruct data structure that stores keys of dictionaries in an array.
 
 **Hash Collision:** When Hash function produces similar indexes to store data in for multiple values. Can be resolved in 2 ways: 
 
-i) Open Addressing: We place the key on another index adjuscent to the referenced index. (can look at next index, also leads to other collisions thats why we resol)
+i) **Open Addressing**: We place the key on another index adjuscent to the referenced index. (can look at next index, also leads to other collisions thats why we resol)
 
-ii) Closed Addressing: Uses Linked Lists to cjain together keys which result in the same value.
+ii) **Closed Addressing**: Uses Linked Lists to chain together keys which result in the same value.
 
 
 ### 7. Trees.
 
-An abstruct data structure which contains a series of linked nodes connected together to form a hierarchical representation of data.
+An abstruct data structure which contains a series of linked nodes connected together to form a **hierarchical representation of data.**
 The nodes in the tree can aslo be called **Verticies** and the connectionions to nodes called **Edges.**
 
  - **Parent Node:** A node that has 1 or more child nodes
  - **Child Node:** A node which has an edge connecting it to a parent node
  - **Leaf Node:** A node in a tree which does not have any child nodes.
 
-i) Binary Search Tree.
+**i) Binary Search Tree.**
 A variation of the standard tree with these three restrictions;
  - A node can have at most 2 child nodes.
  - The left node should be <= the right node
@@ -104,7 +105,7 @@ A variation of the standard tree with these three restrictions;
 Advantage is that the search improves with the increase in data, **O(log n)**
   
 ### 8. Tries
-Its a tree-like data structure whose nodes store letters of an alphabet.
+Its a tree-like data structure whose nodes store letters of an **alphabet**.
 
 Are usefull in retrieval of words by traversing down a path os strings.
 
