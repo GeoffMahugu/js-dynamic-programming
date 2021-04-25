@@ -103,12 +103,12 @@ A variation of the standard tree with these three restrictions;
 
 Advantage is that the search improves with the increase in data, **O(log n)**
   
-### Tries
+### 8. Tries
 Its a tree-like data structure whose nodes store letters of an alphabet.
 
 Are usefull in retrieval of words by traversing down a path os strings.
 
-### 8. Heaps
+### 9. Heaps
 
 A special tree where all parent nodes compare to their children Node's in some specific way (Max Heap/ Min Heap) by being more or less extreme.
 
@@ -120,7 +120,7 @@ A special tree where all parent nodes compare to their children Node's in some s
 Use full in implementing **Heap Sort** algorythm where we continuously remove the root node to create a new array of sorted list.
 
 
-### 9. Graphs
+### 10. Graphs
 
 Nonlinear data structure containing **Nodes** and **Edges.**
 
