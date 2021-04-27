@@ -12,7 +12,7 @@ function createAllWords(target, wordList) {
         if (target.indexOf(word) === 0) {
             const suffix = target.slice(word.length);
             const retrievedWordsArr = createAllWords(suffix, wordList); // [['bc'],['de']]
-            const fullWordArr = retrievedWordsArr.map(arrWords => [word, ...arrWords]) // ['a',['bc'],['de']]
+            const fullWordArr = retrievedWordsArr.map(arrWords => [word, ...arrWords]); // ['a',['bc'],['de']]
             constructArray.push(...fullWordArr);
         }
     }
