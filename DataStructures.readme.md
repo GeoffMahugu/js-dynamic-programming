@@ -6,16 +6,17 @@ This doc contains a summary of Data Structures.
 
 **Sequential Access Data Structure:** - Data can only be accessed in a particular order; Each element is dependent on each other.
 
-### Arrays
+### 1. Arrays
 A list of similar values.
 
 Attributes of an array include:
- - Name: Has to have a name
- - Type: You store similar data types (boolean,int,str)
- - Size: arrays have a fix size.
+ - **Name**: Has to have a name
+ - **Type**: You store similar data types (boolean,int,str)
+ - **Size**: arrays have a fix size.
 
-### Array Lists
+### 2. Array Lists
 A growing Array. The size of array increases as the data increases.
+It sores pointers/references of the location in memory where the object is stored.
 
 Has predefined methods:
  - Add Method
@@ -26,7 +27,7 @@ Has predefined methods:
  - toArray Method
 
 
-### Stacks
+### 3. Stacks
 A sequential access data structure in which we add elemnts and remove elements according to the **LIFO** principle.
 
 Methods on stack include:
@@ -36,7 +37,7 @@ Methods on stack include:
  - **Contains**: Searches through the stack and **returns a boolean**.
 
 
-### Queues
+### 4. Queues
 A sequential access data structure which follows the **FIFO** methodology.
 Elements are added from the back and removed from the front (Sort of a waiting list)
 
@@ -46,7 +47,7 @@ methods on Que include:
  - **Peek**: returns the first element of the queue without modifying the queue.
  - **Contains:** - traverses the Queue in search of an object and returns a boolean of presence of object.
 
-### Linked List
+### 5. Linked List
 Its a **sequential access linear data structure** in which every element is a seperate object called a **Node** which has 2 parts:
 
 - Data
@@ -66,7 +67,7 @@ Node
 [prev-pointer | data(int,str,boolean) | next-pointer]
 
 ### Dictionaries / Maps /Associative Arrays
-Abstruct data structure which stores data in the form of key/value pairs:
+Abstruct data structure which stores data in the form of **key/value pairs**:
 
 { key:value }
 
@@ -74,28 +75,28 @@ Abstruct data structure which stores data in the form of key/value pairs:
 - Every Key contains one value
 
 
-### Hash Table
+### 6. Hash Table
 An abstruct data structure that stores keys of dictionaries in an array.
 
 **Hash function:** takes all keys for a given dictionary and strategically maps them to a certain index location in an array to be retrieved easily.
 
 **Hash Collision:** When Hash function produces similar indexes to store data in for multiple values. Can be resolved in 2 ways: 
 
-i) Open Addressing: We place the key on another index adjuscent to the referenced index. (can look at next index, also leads to other collisions thats why we resol)
+i) **Open Addressing**: We place the key on another index adjuscent to the referenced index. (can look at next index, also leads to other collisions thats why we resol)
 
-ii) Closed Addressing: Uses Linked Lists to cjain together keys which result in the same value.
+ii) **Closed Addressing**: Uses Linked Lists to chain together keys which result in the same value.
 
 
-### Trees.
+### 7. Trees.
 
-An abstruct data structure which contains a series of linked nodes connected together to form a hierarchical representation of data.
+An abstruct data structure which contains a series of linked nodes connected together to form a **hierarchical representation of data.**
 The nodes in the tree can aslo be called **Verticies** and the connectionions to nodes called **Edges.**
 
  - **Parent Node:** A node that has 1 or more child nodes
  - **Child Node:** A node which has an edge connecting it to a parent node
  - **Leaf Node:** A node in a tree which does not have any child nodes.
 
-i) Binary Search Tree.
+**i) Binary Search Tree.**
 A variation of the standard tree with these three restrictions;
  - A node can have at most 2 child nodes.
  - The left node should be <= the right node
@@ -103,12 +104,12 @@ A variation of the standard tree with these three restrictions;
 
 Advantage is that the search improves with the increase in data, **O(log n)**
   
-### Tries
-Its a tree-like data structure whose nodes store letters of an alphabet.
+### 8. Tries
+Its a tree-like data structure whose nodes store letters of an **alphabet**.
 
 Are usefull in retrieval of words by traversing down a path os strings.
 
-### Heaps
+### 9. Heaps
 
 A special tree where all parent nodes compare to their children Node's in some specific way (Max Heap/ Min Heap) by being more or less extreme.
 
@@ -120,7 +121,7 @@ A special tree where all parent nodes compare to their children Node's in some s
 Use full in implementing **Heap Sort** algorythm where we continuously remove the root node to create a new array of sorted list.
 
 
-### Graphs
+### 10. Graphs
 
 Nonlinear data structure containing **Nodes** and **Edges.**
 
